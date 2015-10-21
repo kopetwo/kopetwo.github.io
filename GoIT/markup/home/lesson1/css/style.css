@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(238,238,238);
+}
+.PageA4{
+width: 513px;
+background-color: rgb(255,255,255);
+font-size: 18px;
+border:1px solid rgb(213,213,213) ;
+margin:0 auto;
+}
+.image{
+display:block;
+margin:0 auto;
+} 
+
+.block{
+border-bottom: 2px solid rgb(213,213,213); 
+margin:30px 50px;
+}
+h2{
+text-align: center;
+}
+.block_no_border{
+margin:30px 50px;
+}
