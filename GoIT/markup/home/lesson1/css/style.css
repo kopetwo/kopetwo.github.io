@@ -23,3 +23,6 @@ text-align: center;
 .block_no_border{
 margin:30px 50px;
 }
+span{
+  display:block;
+}
