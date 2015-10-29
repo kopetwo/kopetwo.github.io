@@ -114,3 +114,6 @@ border-bottom: none;
 	 color: #2c2c2c;
 	
 }
+.footer li a:hover{
+	text-decoration: underline;
+}
