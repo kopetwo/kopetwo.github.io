@@ -6,13 +6,13 @@
 	font-weight: normal;
 }
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .clearfix:after{
-	content: '';
-	clear: both;
-	display: block;
+    content: '';
+    clear: both;
+    display: block;
 
 }
 body{
@@ -28,8 +28,8 @@ body{
 }
 
 .nav{
-	background-color: #505050;
-	margin: 40px 0 40px 0;
+     background-color: #505050;
+     margin: 40px 0 40px 0;
 	
 }
 .nav li{
@@ -71,9 +71,10 @@ body{
 }
 .sidebar li:last-child{
 	border-bottom: none;
-	height: 40px;
 }
-
+.sidebar li:last-child a{
+	line-height: 40px;
+}
 .content{
 	float: right;
 	width: 678px;
