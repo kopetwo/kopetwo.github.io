@@ -6,13 +6,13 @@
     font-weight: normal;
 }
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 .clearfix:after{
-	content: '';
-	clear: both;
-	display: block;
+    content: '';
+    clear: both;
+    display: block;
 
 }
 body{
@@ -20,16 +20,16 @@ body{
     font-family: OpenSansRegular;
 }
 .page{
-	width: 1014px;
-	background-color: #ffffff;
+    width: 1014px;
+    background-color: #ffffff;
     box-shadow: 0 5px 5px rgba(0,0,0,0.3);
     margin: 0 auto;
     padding: 46px;
 }
 
 .nav{
-	background-color: #505050;
-	margin: 40px 0 40px 0;
+     background-color: #505050;
+     margin: 40px 0 40px 0;
 	
 }
 .nav li{
@@ -66,8 +66,8 @@ body{
 	color: #656363;
 	text-decoration: none;
 	display: block;
-    padding: 0 0 0 23px;
-    line-height: 40px;
+        padding: 0 0 0 23px;
+        line-height: 40px;
 
 }
 .sidebar li:last-child{
