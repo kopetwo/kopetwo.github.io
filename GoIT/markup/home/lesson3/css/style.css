@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "OpenSansRegular";
-    src: 
-    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+	font-family: "OpenSansRegular";
+	src: 
+	url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
 *{
 	margin: 0;
@@ -16,15 +16,15 @@
 
 }
 body{
-    background-color: #f9f9f9;
-    font-family: OpenSansRegular;
+	background-color: #f9f9f9;
+	font-family: OpenSansRegular;
 }
 .page{
-	width: 1014px;
+	width: 966px;
 	background-color: #ffffff;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
-    margin: 0 auto;
-    padding: 46px;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+	margin: 0 auto;
+	padding: 50px 48px 60px 46px ;
 }
 
 .nav{
@@ -35,9 +35,6 @@ body{
 .nav li{
 	float: left;
 	list-style: none;
-	font-size: 15px;
-	color :white;
-	line-height: 40px;
 	padding :0 20px;
 	border-right: 1px solid rgba(0,0,0,0);
 	border-left: 1px solid rgba(0,0,0,0);
@@ -49,36 +46,39 @@ body{
 	color: white;
 	text-decoration: none;
 	text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
+	display: block;
+	line-height: 40px;
+	padding :0 20px;
 }
-.sidebar{
+.sidebar {
 	float: left;
 	border: 1px solid #c8c8c8;
+	width: 240px;
 
 }
 .sidebar li{
 	list-style: none;
 	border-bottom: 1px solid #c8c8c8;
-	height: 40px;
-	width: 240px;
 }
 .sidebar li a{
 	font-size: 13px;
 	color: #656363;
 	text-decoration: none;
 	display: block;
-    padding: 0 0 0 23px;
-    line-height: 40px;
+	padding: 0 0 0 23px;
+	line-height: 39px;
 
 }
 .sidebar li:last-child{
-border-bottom: none;
+	border-bottom: none;
+	height: 40px;
 }
 
 .content{
 	float: right;
+	width: 678px;
 }
 .text{
-	width: 678px;
 	margin-top: 40px;
 
 }
@@ -110,8 +110,10 @@ border-bottom: none;
 	border-left: 1px solid #838383;
 }
 .sidebar li:hover a{
-	 padding: 0 0 0 33px;
-	 color: #2c2c2c;
+	padding: 0 0 0 33px;
+	color: #2c2c2c;
+	background-color: #f9f9f9;
+	
 	
 }
 .footer li a:hover{
