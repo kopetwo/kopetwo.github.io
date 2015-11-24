@@ -1,17 +1,14 @@
 table{
-	display: block;
+	width: ;
 	margin: 0 auto;
 	border-collapse: collapse;
+	width: 540px;
 }
 td{
-	width: 50px;
-	height: 50px;
 	border: 3px solid black;
 }
 tr{
-	height: 50px;
-	width: 495px;
-
+	height: 60px;	
 }
 .yellow{
 	background-color: yellow;
@@ -32,12 +29,3 @@ tr{
 	background-color:#26312d;
 }
 
-tr:last-child td{
-	border-left: none;
-	border-right: none;
-
-
-}
-tr:last-child td:last-child{
-	border-right: 3px solid black; 
-}
