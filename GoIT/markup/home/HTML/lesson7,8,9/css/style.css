@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src:url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header{
+    background: url(../img/header-image.jpg) center top no-repeat;
+    background-size: 100%;
+    height: 523px;
+   
+}
+.header h1, p{
+	color: white;
+    }
+.header h1{
+	/*line-height: 62px;
+	font-size: 48px;*/
+	padding: 20% 0 5% 14%;
+}
+.header p{
+	line-height: 22px;
+	font-size: 18px;
+	padding: 0 0 0 14%;
+}
