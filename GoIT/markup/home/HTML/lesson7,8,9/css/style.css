@@ -97,7 +97,7 @@ html,body{
 	background: #53636f;
 	width: 50%;
 	height: 50%;
-	min-height: 200px;
+	min-height: 350px;
 
 }
 .bottom-right{
@@ -106,7 +106,7 @@ html,body{
 	background-size: cover;
 	width: 50%;
 	height: 50%;
-	min-height: 200px;
+	min-height: 350px;
 }
 
 .twitter{
