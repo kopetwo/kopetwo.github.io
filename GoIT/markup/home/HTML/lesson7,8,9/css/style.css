@@ -1,21 +1,21 @@
 @font-face {
-    font-family: 'helveticaneuecyrlight_italic';
-    src: url('../font/helveticaneuecyr-lightitalic-webfont.eot');
-    src: url('../font/helveticaneuecyr-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../font/helveticaneuecyr-lightitalic-webfont.woff2') format('woff2'),
-         url('../font/helveticaneuecyr-lightitalic-webfont.woff') format('woff'),
-         url('../font/helveticaneuecyr-lightitalic-webfont.ttf') format('truetype'),
-         url('../font/helveticaneuecyr-lightitalic-webfont.svg#helveticaneuecyrlight_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'helveticaneuecyrlight_italic';
+	src: url('../font/helveticaneuecyr-lightitalic-webfont.eot');
+	src: url('../font/helveticaneuecyr-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../font/helveticaneuecyr-lightitalic-webfont.woff2') format('woff2'),
+	url('../font/helveticaneuecyr-lightitalic-webfont.woff') format('woff'),
+	url('../font/helveticaneuecyr-lightitalic-webfont.ttf') format('truetype'),
+	url('../font/helveticaneuecyr-lightitalic-webfont.svg#helveticaneuecyrlight_italic') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
-    font-family: "MyriadProRegular";
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
-    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
 *{
 	padding: 0;
@@ -33,15 +33,18 @@ html,body{
 }
 .page{
 	height: 100%;
+	min-width: 860px;
 }
 .header{
-    background: url(../img/header-image.jpg) no-repeat;
-    background-size: cover;
-   
+	background: url(../img/header-image.jpg) no-repeat;
+	background-size: cover;
+	border-bottom: 1px solid #fff;
+	height: 50%;
+	min-height: 390px;
 }
 .header h1, p{
 	color: white;
-    }
+}
 .header h1{
 	line-height: 3.5rem;
 	font-size: 3.5rem;
@@ -52,10 +55,11 @@ html,body{
 	
 	font-size: 1.4rem;
 	padding: 0 0 0 19.5%;
-	white-space: pre-wrap;
+	width: 30%;
 }
-.button a{
+.button{
 	display: block;
+	float: left;
 	width: 240px;
 	line-height: 59px;
 	font-size: 2.5rem;
@@ -64,6 +68,48 @@ html,body{
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: center;
-	margin-left: 19.5%;
+	margin:30px 0 30px 19.5%;
 	
+}
+.home{
+	display: block;
+	float: left;
+	font-size: 1.4rem;
+	color: #fff;
+	text-decoration: none;
+	margin: 50px 0 0 2.3%;
+	text-transform: uppercase;
+}
+.home i{
+	padding: 0 0 0 4.6%;
+	color: #f15a29;
+}
+.links:after{
+	content: '';
+	display: block;
+	width: 43.3%;
+	background: #a19a94;
+	height: 1px;
+	margin: 0 0 30px 19.5%;
+}
+.bottom-left{
+	float: left;
+	background: #53636f;
+	width: 50%;
+	height: 50%;
+	min-height: 200px;
+
+}
+.bottom-right{
+	float: left;
+	background: url(../img/bottom-right.jpg);
+	background-size: cover;
+	width: 50%;
+	height: 50%;
+	min-height: 200px;
+}
+
+.twitter{
+	width: 80%;
+	margin: 3.4% auto 0 auto;
 }
