@@ -39,7 +39,7 @@ html,body{
 	background: url(../img/header-image.jpg) no-repeat;
 	background-size: cover;
 	border-bottom: 1px solid #fff;
-	height: calc(50%-1px);
+	height: calc(50%-10px);
 	min-height: 390px;
 }
 .header h1, p{
