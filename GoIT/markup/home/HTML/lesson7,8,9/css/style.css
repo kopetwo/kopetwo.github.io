@@ -38,8 +38,8 @@ html,body{
 .header{
 	background: url(../img/header-image.jpg) no-repeat;
 	background-size: cover;
-	border-bottom: 1px solid #fff;
-	height: 50%;
+	/*border-bottom: 1px solid #fff;*/
+	/*height: 50%;*/
 	min-height: 390px;
 }
 .header h1, p{
