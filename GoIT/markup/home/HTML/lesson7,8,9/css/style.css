@@ -36,12 +36,19 @@ html,body{
 	min-width: 860px;
 }
 .header{
-	background: url(../img/header-image.jpg) no-repeat;
-	background-size: cover;
-	border-bottom: 1px solid #fff;
+	position: relative;
 	height: 50%;
 	min-height: 390px;
 	box-sizing: border-box;
+	background: url(../img/header-image.jpg) no-repeat;
+	background-size: cover;
+	background-color: rgba(94, 83, 74, 0.9);
+	border-bottom: 1px solid #fff;
+}
+.logo{
+	position: absolute;
+	left: 9%;
+	top: 32px;
 }
 .header h1, p{
 	color: white;
