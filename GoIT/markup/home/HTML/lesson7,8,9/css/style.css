@@ -38,8 +38,8 @@ html,body{
 .header{
 	background: url(../img/header-image.jpg) no-repeat;
 	background-size: cover;
-	/*border-bottom: 1px solid #fff;*/
-	height: 50%;
+	border-bottom: 1px solid #fff;
+	height: calc(50%-1px);
 	min-height: 390px;
 }
 .header h1, p{
@@ -55,7 +55,7 @@ html,body{
 	
 	font-size: 1.4rem;
 	padding: 0 0 0 19.5%;
-	width: 30%;
+	width: 50%;
 }
 .button{
 	display: block;
