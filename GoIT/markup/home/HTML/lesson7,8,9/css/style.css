@@ -33,7 +33,7 @@ html,body{
 }
 .page{
 	height: 100%;
-	min-width: 860px;
+	min-width: 1160px;
 }
 .header{
 	position: relative;
@@ -57,7 +57,6 @@ html,body{
 	line-height: 3.5rem;
 	font-size: 3.5rem;
 	padding: 5% 0 1% 19.5%;
-    min-width: 933px;
 }
 .header p{
 	
