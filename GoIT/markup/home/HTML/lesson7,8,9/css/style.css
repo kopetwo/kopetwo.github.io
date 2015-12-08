@@ -59,6 +59,8 @@ html,body{
 	padding: 4% 0 1% 19.5%;
 	display: inline-block;
 	max-height: 70px;
+	min-width: 1160px;
+}
 }
 .header p{
 	
