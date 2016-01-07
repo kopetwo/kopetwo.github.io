@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+label {
+	display: block !important;	
+	line-height: 0;
+}
+form {
+	text-align: center;
+}
+
