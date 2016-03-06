@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.input{
+	display: inline-block;
+}
+
+.help{
+	display: none;
+	width: 300px;
+	position: absolute;
+	left: 250px;
+	top:0;
+	text-align: center;
+	-webkit-box-shadow: 1px 1px 4px 1px rgba(125,121,125,1);
+	-moz-box-shadow: 1px 1px 4px 1px rgba(125,121,125,1);
+	box-shadow: 1px 1px 4px 1px rgba(125,121,125,1);
+	border-radius: 1px;
+
+}
+form>div{
+	margin: 10px 0 0 0;
+	position: relative;
+}
+
+div>input{
+	position: absolute;
+	left: 115px;
+}
+button{
+	margin: 10px 0 0 0;
+	width: 100px;
+	line-height: 20px;
+}
