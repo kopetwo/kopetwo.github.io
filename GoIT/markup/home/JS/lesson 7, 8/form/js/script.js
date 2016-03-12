@@ -5,26 +5,25 @@ var $help = $('.help');
 var $button = $('button');
 
 
-function inputHover () {
-   // body
-  	var index = $input.index($(this));
-
-	$help.eq(index).css('display', 'inline-block');
-
-
-};
-
-function inputOut () {
-
-	$help.hide();
-}
 
 function clickButton () {
 	
 	$help.show();
 }
 
-$input.mouseover(inputHover);
-$input.mouseout(inputOut);
+$input.hover(
+ function (){
+	var index = $input.index($(this));
+
+	$help.eq(index).fadeIn(500).css('display', 'inline-block');
+
+            },
+ function(){
+	var index = $input.index($(this));
+
+	$help.eq(index).fadeOut(500).css('display', 'none');
+
+           });
+
 $button.on('click', clickButton);
 });
