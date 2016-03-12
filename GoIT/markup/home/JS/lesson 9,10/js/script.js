@@ -9,14 +9,17 @@ $(document).ready(function($) {
         function() {
 
             $(this).children('.submenu').stop(true, true).slideDown(500);
-            $lisub.animate({
+            $lisub.stop(true, true).animate({
                 backgroundColor: "#8ab66b",
-            }, 500);
+            }, 700);
 
         },
         function() {
 
             $(this).children('.submenu').stop(true, true).slideUp(500);
+               $lisub.stop(true, true).animate({
+                backgroundColor: "#cdeb8e",
+            }, 100);
 
         });
 

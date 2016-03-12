@@ -19,7 +19,9 @@
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #cdeb8e 0%, #a5c956 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956', GradientType=0);*/*/*/*/*/*/
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956', GradientType=0);
+    */*/*/
+    */*/*/
     /* IE6-9 */
 }
 
@@ -57,7 +59,6 @@
     padding: 0 0 0 5px;
 }
 
-
 .submenu {
     display: none;
     /*border: 1px solid black;*/
@@ -68,7 +69,6 @@
     width: 200px;
     background-color: #cdeb8e;
     /*background-color: #8ab66b;*/
-
 }
 
 .submenu li a {
@@ -76,10 +76,10 @@
     text-align: left;
     line-height: 39px;
     border-bottom: 1px solid black;
-
 }
+
 .submenu li:last-child a {
-    border-bottom: none; 
+    border-bottom: none;
 }
 
 .jcarousel-wrapper {
@@ -196,6 +196,7 @@
     -moz-box-shadow: 0 0 2px #F0EFE7;
     box-shadow: 0 0 2px #F0EFE7;
 }
+
 .forms {
     width: 200px;
     height: 100px;
@@ -204,10 +205,8 @@
     margin: 0 0 0 10px;
 }
 
-
 .Checkbox-jQuery {
     position: relative;
-
 }
 
 .niceCheck {
