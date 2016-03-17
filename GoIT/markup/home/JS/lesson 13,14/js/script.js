@@ -3,17 +3,17 @@
 $(function() {
 
     var info = [{
-        question: "Вопрос #1 Как я знаю JS",
-        answer: ["Плохо", "Оч плохо", "Оч оч плохо"],
-        rightAnswer: 2 //index of the right answer
+        question: "Вопрос #1 Какого цвета небо?",
+        answer: ["Голубого", "Красного", "Зеленого"],
+        rightAnswer: 0 //index of the right answer
     }, {
-        question: "Вопрос #2",
-        answer: ["Ответ 1", "Ответ 2", "Ответ 3"],
+        question: "Вопрос #2 Какого цвета трава?",
+        answer: ["Красного", "Зеленого", "Синего"],
         rightAnswer: 1
     }, {
-        question: "Вопрос #3",
-        answer: ["Ответ 1", "Ответ 2", "Ответ 3"],
-        rightAnswer: 0
+        question: "Вопрос #3 Сколько будет 2+2",
+        answer: ["3", "2", "4"],
+        rightAnswer: 2
     }];
 
 
