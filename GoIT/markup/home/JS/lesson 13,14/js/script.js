@@ -34,17 +34,20 @@ $(function() {
 
         $('.modal-body').empty();
 
+        $('.modal-title').empty();
+
+
         for (var i = 0; i < questions.length; i++) {
 
-            var $checkeded = $('.box' + i + ' input[type=checkbox]:checked').length;
-            console.log($checkeded);
+            var $checked = $('.box' + i + ' input[type=checkbox]:checked').length;
+
 
             // if ($checked == 0) {
 
             //     $('#checkButton').prop('disabled', true);
 
             // }
-            if($checkeded == 0) { 
+            if($checked == 0) { 
 
                 alert('Вы ответили не на все вопросы');
 
@@ -53,6 +56,7 @@ $(function() {
             }
         };
 
+        $('.modal-title').html('Тест пройден успешно');
 
         for (var i = 0; i < questions.length; i++) {
 
@@ -69,10 +73,6 @@ $(function() {
                     if ($id == questions[i].rightAnswer && $checked <= 1) {
 
                         $('.modal-body').append('<div>Ответ на ' + (i + 1) + ' вопрос верен</div>');
-
-                        $('.modal-title').empty();
-
-                        $('.modal-title').html('Тест пройден успешно');
 
                     } else {
 
