@@ -36,7 +36,6 @@ $(function() {
 
         $('.modal-title').empty();
 
-
         for (var i = 0; i < questions.length; i++) {
 
             var $checked = $('.box' + i + ' input[type=checkbox]:checked').length;
