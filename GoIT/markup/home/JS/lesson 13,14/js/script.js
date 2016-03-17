@@ -30,29 +30,49 @@ $(function() {
 
     $('.questions').append(content);
 
-
-
     function checkAnswer() {
 
         $('.modal-body').empty();
-        // $('.modal-title').empty();
-        $('.modal-title').html('Тест пройден успешно');
 
         for (var i = 0; i < questions.length; i++) {
 
-            var $inputs = $('.box' + i + ' input:checkbox');
+            var $checkeded = $('.box' + i + ' input[type=checkbox]:checked').length;
+            console.log($checkeded);
+
+            // if ($checked == 0) {
+
+            //     $('#checkButton').prop('disabled', true);
+
+            // }
+            if($checkeded == 0) { 
+
+                alert('Вы ответили не на все вопросы');
+
+                return false;
+
+            }
+        };
+
+
+        for (var i = 0; i < questions.length; i++) {
+
+            var $input = $('.box' + i + ' input:checkbox');
 
             var $checked = $('.box' + i + ' input[type=checkbox]:checked').length;
 
             for (var k = 0; k < questions[i].answer.length; k++) {
 
-                if ($inputs[k].checked) {
+                if ($input[k].checked) {
 
-                    var $id = $inputs.eq(k).attr("id");
+                    var $id = $input.eq(k).attr("id");
 
                     if ($id == questions[i].rightAnswer && $checked <= 1) {
 
                         $('.modal-body').append('<div>Ответ на ' + (i + 1) + ' вопрос верен</div>');
+
+                        $('.modal-title').empty();
+
+                        $('.modal-title').html('Тест пройден успешно');
 
                     } else {
 
@@ -69,13 +89,6 @@ $(function() {
         };
     };
 
-
-    $('.modal-backdrop').on('click', function() {
-
-        $('.modal-body').empty();
-
-        $('.modal-title').empty();
-    });
 
     $('#checkButton').on('click', checkAnswer);
 
