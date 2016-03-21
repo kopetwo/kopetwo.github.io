@@ -1,18 +1,27 @@
 function GoogleCallback(jobj, data) {
+
     var ul = document.createElement("ul");
+
     var results = $('.results');
+
     $.each(data.results, function(i, val) {
+
         var li = document.createElement("li");
+
         li.innerHTML = '<a href="' + val.url + '"><h3 class="title">' + val.title + '</h3></a> <p class="visibleUrl">'+val.visibleUrl+'</p> <p class="content">'+val.content+'</p>';                        
+
         ul.appendChild(li);
+
         console.log(val);
     });
+    
     results.html(ul);
 };
 
 $(function() {
 
     function request() {
+
         var text = $('#text').val();
 
         $.ajax({
@@ -26,6 +35,7 @@ $(function() {
     $('.submit').on('click', request);
 
     $('#text').keypress(function(event) {
+
         if (event.which == 13) {
             request();
         }
