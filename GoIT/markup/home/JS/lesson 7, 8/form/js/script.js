@@ -15,13 +15,13 @@ $input.hover(
  function (){
 	var index = $input.index($(this));
 
-	$help.eq(index).css('display', 'inline-block');
+	$help.eq(index).stop(true, true).css('display', 'inline-block');
 
             },
  function(){
 	var index = $input.index($(this));
 
-	$help.eq(index).css('display', 'none');
+	$help.eq(index).stop(true, true).css('display', 'none');
 
            });
 
