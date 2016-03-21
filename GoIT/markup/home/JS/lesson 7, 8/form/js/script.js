@@ -15,17 +15,13 @@ $input.hover(
  function (){
 	var index = $input.index($(this));
 
-<<<<<<< HEAD
 	$help.eq(index).css('display', 'inline-block');
-=======
 
             },
  function(){
 	var index = $input.index($(this));
 
-<<<<<<< HEAD
 	$help.eq(index).css('display', 'none');
-=======
 
            });
 
