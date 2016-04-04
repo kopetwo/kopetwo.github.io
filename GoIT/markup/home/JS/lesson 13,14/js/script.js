@@ -86,9 +86,15 @@ $(function() {
                 }
             };
         };
+        for (var i = 0; i < questions.length; i++) {
+
+            $('input[type="checkbox"]').removeAttr('checked');
+        };
+
     };
 
 
     $('#checkButton').on('click', checkAnswer);
 
 });
+

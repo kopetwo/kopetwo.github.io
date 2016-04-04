@@ -42,4 +42,47 @@ $(function() {
     });
 
 
+function Human (name, age, gender, height, weight) {
+
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+    this.height = height;
+    this.weight = weight;
+
+}
+// var human1 = new Human("Вася", "19","мужик", "170","70");
+// var human2 = new Human("Коля", "17","мужик", "176","73");
+
+
+function Worker (placeOfWork, salary) {
+    this.placeOfWork = placeOfWork;
+    this.salary = salary;
+    this.work = function () {
+        console.log('Работник работает');
+    }
+}
+// var worker1 = new Worker("Luxoft","1000$");
+
+// worker1.__proto__ = human1;
+// Worker.prototype = Object.create(Human.prototype);
+
+function Student (placeOfStudy, scholarShip) {
+     /* body... */ 
+     this.placeOfStudy = placeOfStudy;
+     this.scholarShip = scholarShip;
+     this.watch = function () {
+        console.log('Студент смотрит сериал');
+     }
+ }
+
+Worker.prototype = new Human;
+Student.prototype = new Human;
+
+var worker = new Worker;
+var student = new  Student;
+
+console.log('worker', worker);
+console.log('student', student);
+
 });

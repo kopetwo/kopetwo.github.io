@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+.logo img {
+    width: 100px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+
+#scene {
+    position: fixed;
+    top: 5%;
+    width: 70%;
+    z-index: -1;
+}
+
+#scene img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.kaypad {
+    margin: 0 0 0 15%;
+}
+
+.ipr2 {
+    margin: 0 0 0 37%;
+}
+
+.ipr-8 {
+    margin: 0 0 0 60%;
+}
+
+
+
+header {
+    height: 300px;
+    min-height: 300px;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+header::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: url(../img/bg-header-sample.png) 0 0 repeat;
+    opacity: 0.7;
+    /*z-index: -2;*/
+    /*background-image: -moz-linear-gradient(left, rgba(255,255,255,0.8) , rgba(255,255,255,.1) );
+    background-image: -o-linear-gradient(left, rgba(255,255,255,0.8) , rgba(255,255,255,.1) );
+    background-image: -ms-linear-gradient(left, rgba(255,255,255,0.8) , rgba(255,255,255,.1) );
+    background-image: -webkit-linear-gradient(left, rgba(255,255,255,0.8) , rgba(255,255,255,.1) );
+    background-image: linear-gradient(left, rgba(255,255,255,0.8), rgba(255,255,255,.1) );*/
+}
+
+header .menu {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: background-color 0.3s ease-in;
+    z-index: 100;
+}
+
+header .menu a {
+    color: black;
+    font-size: 1.5em;
+    display: inline-block;
+    margin: 10px 30px;
+    text-decoration: none;
+    position: relative;
+}
+
+.fixed {
+    position: fixed !important;
+    top: 0;
+    background-color: white;
+    height: 53px;
+}
+
+header .menu a:hover {
+    /*color: #33CCCC;*/
+    color: #4671D5;
+}
+
+header .menu a:hover::after {
+    content: "";
+    display: block;
+    background: url(../img/triangle.svg) no-repeat;
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.content {
+    background: white;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.wrap {
+    width: 960px;
+    margin: 0 auto;
+}
