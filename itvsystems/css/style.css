@@ -35,14 +35,12 @@ body {
 }
 
 .ipr2 {
-    margin: 0 0 0 37%;
+    margin: 15px 0 0 37%;
 }
 
 .ipr-8 {
     margin: 0 0 0 60%;
 }
-
-
 
 header {
     height: 300px;
@@ -50,8 +48,6 @@ header {
     width: 100%;
     display: inline-block;
     position: relative;
-    background-color: rgba(15, 180, 231, 0.6);
-
 }
 
 header::before {
@@ -62,7 +58,17 @@ header::before {
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background: url(../img/bg-circle.png) 0 0 repeat;
+    background: #f9f9f9;
+    /* Old browsers */
+    background: -moz-linear-gradient(45deg, #f9f9f9 0%, #54a3ee 66%, #3690f0 100%, #1e69de 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #f9f9f9 0%, #54a3ee 66%, #3690f0 100%, #1e69de 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #f9f9f9 0%, #54a3ee 66%, #3690f0 100%, #1e69de 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#1e69de', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    opacity: 0.8;
 }
 
 header .menu {
