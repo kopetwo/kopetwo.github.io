@@ -122,10 +122,13 @@ a:focus {
 }
 .carousel-content img {
   margin-top: 30px;
+  display: block;
+  float: left;
 }
 .carousel-content p {
   margin: 100px 100px;
   font-size: 80px;
+  float: left;
 }
 #contact .box {
   background-color: #222;
@@ -477,8 +480,8 @@ a:focus {
 }
 .navbar-default .navbar-brand {
   margin: 10px;
-  width: 90px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   background: url(../images/itv.svg) no-repeat;
 
 }
