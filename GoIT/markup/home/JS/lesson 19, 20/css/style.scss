@@ -1,0 +1,71 @@
+@import "reset";
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+html {
+    font-family: 'Ubuntu', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 35px 0 0 0;
+
+    .logo {
+        float: left;
+
+        .logo__img {
+                height: 48px;
+                width: 48px;
+                margin: 0 11px 0 0;
+        }
+
+        .logo__title {
+            float: right;
+
+            .logo__h1 {
+                font-size: 30px;
+                font-weight: normal;
+            } 
+
+            .logo__h4 {
+                font-size: 12px;
+                font-weight: 300;
+                text-transform: uppercase;
+            }
+        }
+
+    }
+    .social__list {
+        float: right;
+
+        .social__item {
+            list-style: none;
+            float: left;
+            margin: 0 23px 0 0;
+
+            .social__link {
+                color: grey;
+            }
+
+            .social__link:hover{
+                color: #248cec;
+            }
+        }
+        
+        .social__item:last-child {
+            margin-right: 0; 
+        }
+    }
+
+}
+

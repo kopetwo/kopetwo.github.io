@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+html {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px; }
+
+.container {
+  width: 1160px;
+  margin: 0 auto; }
+
+.header {
+  padding: 35px 0 0 0; }
+  .header .logo {
+    float: left; }
+    .header .logo .logo__img {
+      height: 48px;
+      width: 48px;
+      margin: 0 11px 0 0; }
+    .header .logo .logo__title {
+      float: right; }
+      .header .logo .logo__title .logo__h1 {
+        font-size: 30px;
+        font-weight: normal; }
+      .header .logo .logo__title .logo__h4 {
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: uppercase; }
+  .header .social__list {
+    float: right; }
+    .header .social__list .social__item {
+      list-style: none;
+      float: left;
+      margin: 0 23px 0 0; }
+      .header .social__list .social__item .social__link {
+        color: grey; }
+      .header .social__list .social__item .social__link:hover {
+        color: #248cec; }
+    .header .social__list .social__item:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
